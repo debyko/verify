@@ -1,0 +1,51 @@
+{
+  "evaluated_at": "2026-10-02T09:00:00Z",
+  "day": "2026-09-24",
+  "network": "base-sepolia",
+  "schema_version": 1,
+  "layer": "trade",
+  "table": "trade",
+  "row": {
+    "event_time": "2026-09-24T00:00:04.000000Z",
+    "generation": "1",
+    "origin": "ws",
+    "price": "100.5",
+    "received_at": "2026-09-24T00:00:04.100000Z",
+    "segment": "binance-usdm",
+    "sequence": "4",
+    "side": "buy",
+    "size": "0.25",
+    "symbol": "BTCUSDT",
+    "venue_uid": "u-4"
+  },
+  "canonical": "{\"event_time\":\"2026-09-24T00:00:04.000000Z\",\"generation\":\"1\",\"origin\":\"ws\",\"price\":\"100.5\",\"received_at\":\"2026-09-24T00:00:04.100000Z\",\"segment\":\"binance-usdm\",\"sequence\":\"4\",\"side\":\"buy\",\"size\":\"0.25\",\"symbol\":\"BTCUSDT\",\"venue_uid\":\"u-4\"}",
+  "leaf_hash": "60c4ea47d6b5f1faeffe03cf321ddd4a20bb785f3db49172c15ff25587142e0f",
+  "index": 4,
+  "rows": 7,
+  "path": [
+    "87122b194b1f4379cc9545d7feff22b8da54f8b3fdf618e4bb863f95cec297f3",
+    "094ca79a6712e8a3388a9d399033904f16c01e144d13af5e0435f8fbdd49311d",
+    "a31afce4571f2d12a5d8325f812f56e8471803c507fcfd51a9cd9a911b9ede1b"
+  ],
+  "partition": {
+    "root": "abac80dbad67260c3ef16428f618398f78e321b1cd396f80d035c0d8890c4e2d",
+    "leaf": "22efd614b937beba880beb7dff69da48e3fdd066ed582576d485834f1e9b9a01",
+    "index": 1,
+    "count": 2,
+    "path": [
+      "971a078eff0b2f39ef5e869dcbac4145d1b4f636cea71e17f27ab4c1fa0667ea"
+    ]
+  },
+  "day_root": "868c3a277f83080566093d9f46bb61717a82f808958e3a51fe50fa1f50ced4a8",
+  "anchor": {
+    "anchored": true,
+    "status": "anchored",
+    "contract": "0x1111111111111111111111111111111111111111",
+    "tx_hash": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "block": 4242,
+    "anchored_at": "2026-10-01T02:05:00Z",
+    "anchored_lag_days": 7,
+    "explorer_url": "https://sepolia.basescan.org/tx/0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "verify": "https://docs.debyko.com/attest/verify/"
+}
